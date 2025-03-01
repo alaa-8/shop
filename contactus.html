@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   background-image: url(images/pexels-thesocialsundae-6346115.jpg);
+    background-size: cover;
+  background-repeat: no-repeat;
+
+min-height: 100vh; 
+  }
+  
+ 
+  
+  .div1{
+    display: flex;
+    flex-direction: column;
+    
+    flex-direction: row;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    flex: 1;
+    margin-bottom: 150px; 
+  }
+  
+   
+  .contact-form {
+    width: 48%;
+    
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+   
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+ 
+
+  .contact-form .input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px ;
+    border-color: #f3aec2;
+    border-radius: 10px;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #f3aec2;
+    outline: none;
+  }
+  
+  .contact-form button {
+    padding: 10px;
+   
+    color: beige;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  
+  .contact-details {
+    width: 48%;
+    
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    bottom: 2px;
+  }
+  
+  .contact-details h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #000000;
+  }
+  
+  .contact-details p {
+    margin-bottom: 15px;
+    color: #000000;
+  }
+  
+  .contact-details .details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+    border: #666;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  
+  .contact-details .detail {
+    font-size: 0.9rem;
+    color:#8e1940;
+    background-color: #f7d0db;
+ border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+ 
+footer{
+  position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            
+            text-align: center;
+            padding: 15px 0;
+            font-size: 18px;
+}
+
+
+  </style>
+</head>
+<body> 
+<header>
+  <div class="logo"> Donuts</div>
+  <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+                <li><a href="prodact.html">Product</a></li>
+                <li><a href="ofer.html">Special offers</a></li>
+                <li><a href="aboutus.html">About us </a></li>
+                <li><a href="contactus.html">Contact us  </a></li>
+              
+          </ul>
+  </nav>
+</header>
+            <div class="div1 " >
+            <div class="contact-form">
+              <h2>Get in Touch with Us!</h2>
+              <form action="#" method="post">
+                <div class="input-group">
+                  <input type="text" placeholder="Input your name" required>
+                  <input type="email" placeholder="Input your email" required>
+                </div>
+                <input type="text" placeholder="Subject" required>
+                <textarea placeholder="Submit your message request" rows="5" required></textarea>
+                <button class="btn-part">Order now!</button>
+              </form>
+            </div>
+        
+           
+            <div class="contact-details">
+              <h2>Contact Details</h2>
+              <p>Welcome to our Contact Us page! We’re here to assist you with any questions, feedback, or support you need</p>
+              <div class="details">
+                <div class="detail">
+                  <strong>Address:</strong>
+                  <p>Jl. Amman-jordan. 121</p>
+                </div>
+                <div class="detail">
+                  <strong>Mobile:</strong>
+                  <p>079 789 345</p>
+                </div>
+                <div class="detail">
+                  <strong>Instgram:</strong>
+                  <p>@Dountshop_</p>
+                </div>
+                <div class="detail">
+                  <strong>Email:</strong>
+                  <p>Donut1@gmail.com</p>
+                </div>
+              </div>
+</div>
+            
+             </div>
+         
+        
+        
+            <footer class="footer">
+               
+              <div class="logo2"> Thanks for Visiting – Come Back for More Sweetness!</div>
+            </footer>
+      
+</body>
+</html>
